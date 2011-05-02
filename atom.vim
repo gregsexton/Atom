@@ -42,11 +42,15 @@ hi Visual       gui=none          guifg=white     guibg=#D04040
 hi WarningMsg   guifg=salmon
 
 if version >= 700 " Vim 7.x specific colors
- hi CursorLine   guifg=NONE    guibg=#203040 gui=NONE
- hi CursorColumn guifg=NONE    guibg=#203040 gui=NONE
- hi MatchParen   guifg=red     guibg=#304050 gui=BOLD
- hi Pmenu        guifg=#f6f3e8 guibg=#152535 gui=NONE
- hi PmenuSel     guifg=#000000 guibg=#cae682 gui=NONE
+    hi CursorLine   guifg=NONE    guibg=#203040 gui=NONE
+    hi CursorColumn guifg=NONE    guibg=#203040 gui=NONE
+    hi MatchParen   guifg=red     guibg=#304050 gui=BOLD
+    hi Pmenu        guifg=#f6f3e8 guibg=#152535 gui=NONE
+    hi PmenuSel     guifg=#000000 guibg=#cae682 gui=NONE
+endif
+
+if version >= 703 " Vim 7.x specific colors
+    hi ColorColumn  guifg=#e8ecf0 guibg=#283848
 endif
 
 " syntax highlighting groups
