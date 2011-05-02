@@ -1,6 +1,6 @@
 "Maintainer:    Greg Sexton <gregsexton@gmail.com>
-"Last Change:   2011-03-03
-"Version:       1.0
+"Last Change:   2011-04-22
+"Version:       1.1
 "URL:           http://www.gregsexton.org/vim-color-schemes/atom-color/
 
 set background=dark
@@ -13,7 +13,7 @@ if version > 580
 endif
 let g:colors_name="atom"
 
-hi Normal       guifg=white       guibg=#304050
+hi Normal       guifg=#e8ecf0     guibg=#304050
 
 hi DiffDelete   guifg=#304050     guibg=#203040
 hi DiffAdd      guibg=#002851
