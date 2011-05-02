@@ -20,6 +20,9 @@ hi DiffAdd      guibg=#002851
 hi DiffChange   guibg=#450303
 hi DiffText     guibg=#990909     gui=none
 
+hi diffAdded    guifg=#00bf00     guibg=#1d2c1b
+hi diffRemoved  guifg=#e00000     guibg=#2d1c20
+
 hi Cursor       guibg=khaki       guifg=slategrey
 hi VertSplit    guibg=#102030     guifg=#102030   gui=none
 hi Folded       guifg=#cccccc     guibg=#405060
