@@ -11,3 +11,7 @@ Currently Atom is GVim only. I tend to use the default colours when (infrequentl
 ## Install Details
 
 Just drop atom.vim in to your ~/.vim/colors directory or ~/vimfiles/colors if on Windows.
+
+## Screenshot
+
+![Atom Screenshot](http://www.gregsexton.org/images/atom/atom-python.jpg)
