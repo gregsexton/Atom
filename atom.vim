@@ -41,6 +41,7 @@ hi Title        guifg=indianred
 hi Visual       gui=none          guifg=white     guibg=#D04040
 hi WarningMsg   guifg=salmon
 hi Directory    guifg=#A6E22E
+hi SignColumn   guifg=#A6E22E     guibg=#203040
 
 if version >= 700 " Vim 7.x specific colors
     hi CursorLine   guifg=NONE    guibg=#203040 gui=NONE
